@@ -6,7 +6,7 @@ before_install:
 script:
   - docker run jeremyhxx/docker-react npm run test -- --coverage
 deploy:
-  provider: elasticeantalk
+  provider: elasticbeantalk
   region: "us-east-1"
   app: "docker_react"
   env: "DockerReact-env"
